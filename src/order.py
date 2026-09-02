@@ -19,6 +19,7 @@ class Order:
     price: float = None
     order_type: OrderType = OrderType.LIMIT
     timestamp: float = None
+    trader_id: str = None
 
     def __post_init__(self):
         if self.timestamp is None:
