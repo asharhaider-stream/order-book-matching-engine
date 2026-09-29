@@ -9,4 +9,5 @@ requires-python = ">=3.10"
 dependencies = ["sortedcontainers"]
 
 [tool.setuptools]
-packages = ["src"]
+package-dir = {"matching_engine" = "src"} # src folder of matching_engine project exposed to a different name
+packages = ["matching_engine"]
