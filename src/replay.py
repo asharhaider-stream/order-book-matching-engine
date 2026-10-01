@@ -1,7 +1,7 @@
 import random
 import pandas as pd
-from src.order import Order, Side, OrderType
-from src.order_book import OrderBook
+from .order import Order, Side, OrderType
+from .order_book import OrderBook
 
 
 def split_quantity(total_qty: float, max_orders: int = 3) -> list[float]:

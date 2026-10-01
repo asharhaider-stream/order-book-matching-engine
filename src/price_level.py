@@ -1,5 +1,5 @@
 from collections import deque
-from src.order import Order
+from .order import Order
 
 
 class PriceLevel:
